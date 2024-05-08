@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb2a23f7-048d-47a5-b11e-70237e0388ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3804e0a9b24b4663446f43318de7b11b433431f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4eb57a3c49d25e5b7d647e26a5f3d08b54555eca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae787b40072b0fa577624560a4497b53db61e4dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b420fad5bbf08602388064bf9cee82a38bb7f785" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c923a0afcce91f418d54de2e709aa507e706243d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b81fa3b22dcf71feb0baeecf0f2ff769f0be52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/3804e0a9b24b4663446f43318de7b11b433431f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4eb57a3c49d25e5b7d647e26a5f3d08b54555eca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae787b40072b0fa577624560a4497b53db61e4dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b420fad5bbf08602388064bf9cee82a38bb7f785" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/9/c923a0afcce91f418d54de2e709aa507e706243d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/7/e7b81fa3b22dcf71feb0baeecf0f2ff769f0be52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/controller/ProductTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/BrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/ProductTypeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ProductTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/BrandModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ProductModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ProductTypeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/BrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ProductTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/ProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/imp/BrandServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/imp/ProductServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/imp/ProductTypeServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AntoCant"
+  }
+}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/onlineStore-1" />
+                    <option name="lastUsedInstant" value="1715123267" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1715123138" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1715123137" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AntoCant/-Online-Store.git",
+    "accountId": "148e3ef4-1097-4b90-ba48-4cff6cf5004c"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2g9vWKTW7C98gYt9FLT1Pmqk8Ov" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ProductsApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/onlineStore-1",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.OS.api.products.mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.OS.api.products.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ProductsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="PORT" value="5433" />
+        <env name="DATABASE_PASSWORD" value="ac0611ostonyy" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.OS.api.products.ProductsApplication" />
+      <module name="products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OS.api.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProductsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb2a23f7-048d-47a5-b11e-70237e0388ce" name="Changes" comment="" />
+      <created>1715122643634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715122643634</updated>
+    </task>
+    <servers />
+  </component>
+</project>
