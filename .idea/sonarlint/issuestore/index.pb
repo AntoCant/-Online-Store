@@ -3,8 +3,6 @@ y
 IOS-api-products/src/main/java/com/OS/api/products/model/ProductModel.java,4\e\4eb57a3c49d25e5b7d647e26a5f3d08b54555eca
 w
 GOS-api-products/src/main/java/com/OS/api/products/model/BrandModel.java,e\7\e7b81fa3b22dcf71feb0baeecf0f2ff769f0be52
-x
-HOS-api-products/src/main/java/com/OS/api/products/model/ProductType.java,a\e\ae787b40072b0fa577624560a4497b53db61e4dd
 G
 OS-api-products/pom.xml,3\8\3804e0a9b24b4663446f43318de7b11b433431f3
 z
@@ -23,12 +21,6 @@ v
 FOS-api-products/src/main/java/com/OS/api/products/dtos/ProductDTO.java,4\0\4024762139578614977234014a1c47bf5710304e
 z
 JOS-api-products/src/main/java/com/OS/api/products/dtos/ProductTypeDTO.java,b\0\b0cfd98be14c782222ee5f83292c1b1a25359f16
-
-OOS-api-products/src/main/java/com/OS/api/products/service/imp/BrandService.java,b\1\b11d7931f784c9039c95aea1eb9a2723ab369e06
-Å
-QOS-api-products/src/main/java/com/OS/api/products/service/imp/ProductService.java,a\d\ad7c615ba27fa4348c3fe62fc21948b521c697db
-Ö
-UOS-api-products/src/main/java/com/OS/api/products/service/imp/ProductTypeService.java,8\3\834243d4d03257dd8849b5a4e652b1ddd1768eec
 {
 KOS-api-products/src/main/java/com/OS/api/products/service/BrandService.java,9\0\90cf18ef54770fcf84a4e950c9e292e59c275943
 }
