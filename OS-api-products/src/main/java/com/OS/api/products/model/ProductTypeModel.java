@@ -27,7 +27,7 @@ public class ProductTypeModel {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(name = "id_type_product")
-   private Integer IdProductType;
+   private Integer idProductType;
    @Column(name = "description")
    private String description;
    @Column(name = "date_removed")
