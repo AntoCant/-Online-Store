@@ -5,28 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2a23f7-048d-47a5-b11e-70237e0388ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/developer-tools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3158128b511b8bbf43d943827d0a70cea6ad9b73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/3158128b511b8bbf43d943827d0a70cea6ad9b73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/config/CloudinaryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/request/RequestCreateBrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/request/RequestCreateProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ResponseBrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ResponseImageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ResponsePageProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ResponseProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ResponseProductTypeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/response/ResposeCreateProdutDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/enums/ApiOnlineStoreError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/errorHandlers/IdNotFoundExceptionErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/errorHandlers/ImageUploadExceptionErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/errorHandlers/exceptions/IdNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/errorHandlers/exceptions/ImageUploadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ImageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ImageCloudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/imp/ImageCloudRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OS-api-products/src/main/resources/db/migration/V1_0__createBDProduct.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03d948aaef6fa86e028fa17aec8e4a24c4200f79" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03d948aaef6fa86e028fa17aec8e4a24c4200f79" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38d1d849ae10a9572839afa9b1c6c9fdf34112b2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38d1d849ae10a9572839afa9b1c6c9fdf34112b2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be718416c7841c5b7c4273b90d4526573bbd6d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be718416c7841c5b7c4273b90d4526573bbd6d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/4024762139578614977234014a1c47bf5710304e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0a157fb94c0502f62788431af21288969fddb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0a157fb94c0502f62788431af21288969fddb7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4eb57a3c49d25e5b7d647e26a5f3d08b54555eca" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4eb57a3c49d25e5b7d647e26a5f3d08b54555eca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5951b55e64dd27407804f6e418b57afe80ba5da0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5951b55e64dd27407804f6e418b57afe80ba5da0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d52090ef0dece7880aa50671509e30142aefe6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d52090ef0dece7880aa50671509e30142aefe6c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/834243d4d03257dd8849b5a4e652b1ddd1768eec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad7c615ba27fa4348c3fe62fc21948b521c697db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae787b40072b0fa577624560a4497b53db61e4dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b11d7931f784c9039c95aea1eb9a2723ab369e06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f43b67b9202f36c20014fcbd5d6258161a03a99" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f43b67b9202f36c20014fcbd5d6258161a03a99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b090cea2632b0fad783c4cbe8a0146c564f75769" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b090cea2632b0fad783c4cbe8a0146c564f75769" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0cfd98be14c782222ee5f83292c1b1a25359f16" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b420fad5bbf08602388064bf9cee82a38bb7f785" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b420fad5bbf08602388064bf9cee82a38bb7f785" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d84667fe69b3e338e8ee646bb0cf0ee177f76b41" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d84667fe69b3e338e8ee646bb0cf0ee177f76b41" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1e02d458d40a637fc2818ca2db50d67164429ee" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e03e658d6611f602a865036f49a71c8e0fd7281d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e03e658d6611f602a865036f49a71c8e0fd7281d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b81fa3b22dcf71feb0baeecf0f2ff769f0be52" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7b81fa3b22dcf71feb0baeecf0f2ff769f0be52" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaf4fb1082c5680d86234fbe7d1b4f772e5f5522" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaf4fb1082c5680d86234fbe7d1b4f772e5f5522" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec6f53bc7d7bfd2ce35e639e1a3489ef77f9ac89" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec6f53bc7d7bfd2ce35e639e1a3489ef77f9ac89" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/3/834243d4d03257dd8849b5a4e652b1ddd1768eec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/ad7c615ba27fa4348c3fe62fc21948b521c697db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae787b40072b0fa577624560a4497b53db61e4dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/1/b11d7931f784c9039c95aea1eb9a2723ab369e06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/0/4024762139578614977234014a1c47bf5710304e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b0cfd98be14c782222ee5f83292c1b1a25359f16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d1e02d458d40a637fc2818ca2db50d67164429ee" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/BrandDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/ProductDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/dtos/ProductTypeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ProductTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/mapper/ProductTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/BrandModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/BrandModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ProductModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ProductTypeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/model/ProductTypeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ProductTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/repository/ProductTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/imp/ProductServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/imp/ProductServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +77,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,31 +144,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ProductsApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/onlineStore-2",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Anto/IdeaProjects/Practica/Spring/rf-back",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ProductsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.products [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.products [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/onlineStore-2&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anto/IdeaProjects/Practica/Spring/-Online-Store/OS-api-products/src/main/resources/db/migration&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SQL&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.OS.api.products.dtos.request" />
+      <recent name="com.OS.api.products.dtos.response" />
+      <recent name="com.OS.api.products.errorHandlers.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products\src\main\resources\db\migration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products\src\main\java\com\OS\api\products\dtos" />
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products\src\main\resources\db\migration" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.OS.api.products.mapper" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.OS.api.products.errorHandlers" />
+      <recent name="com.OS.api.products.repository" />
       <recent name="com.OS.api.products.service" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="ProductsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
-        <env name="PORT" value="5433" />
         <env name="DATABASE_PASSWORD" value="ac0611ostonyy" />
+        <env name="KEY" value="873859456336216" />
+        <env name="NAME" value="dpxup9pa1" />
+        <env name="PORT" value="5433" />
+        <env name="SECRET" value="hDcjQKFr7vgxRtglld094r5AtQw" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.OS.api.products.ProductsApplication" />
       <module name="products" />

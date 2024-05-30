@@ -8,6 +8,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
@@ -18,6 +19,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Getter
 @Setter
@@ -27,6 +29,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "Product")
 public class ProductModel {
+
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(name = "id_product")
@@ -46,4 +49,7 @@ public class ProductModel {
    @ManyToOne(fetch = FetchType.LAZY)
    @JoinColumn(name = "id_type_product", nullable = false)
    private ProductTypeModel productType;
+   @OneToMany(mappedBy = "productModel", fetch = FetchType.LAZY)
+   private List<ImageModel> images;
+
 }

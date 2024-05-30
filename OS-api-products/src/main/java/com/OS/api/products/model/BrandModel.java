@@ -24,6 +24,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "Brand")
 public class BrandModel {
+
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(name = "id_brand")
@@ -33,5 +34,6 @@ public class BrandModel {
    @Column(name = "date_removed")
    @Temporal(TemporalType.DATE)
    private LocalDate dateRemoved;
+
 }
 
