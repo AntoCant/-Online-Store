@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="sql-formatting">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="sql-formatting" id="e0620d6e-e208-41ba-87d4-5d7da6fd5343" name="Workbench">
+        <properties>
+          <property key="dialect" type="CONFIGURATION" value="com.github.vertical_blank.sqlformatter.languages.Dialect|PostgreSql" />
+          <property key="sourceText" type="INPUT" value="kotlin.String|create table imagen(&#10;id_imagen serial primary key,&#10;id_producto int not null,&#10;ruta_almacenamiento varchar not null,&#10;fecha_alta timestamp not null,&#10;fecha_baja timestamp,&#10;foreign key (id_producto)&#10;references producto(id_producto)&#10;);" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+  </component>
+</project>
