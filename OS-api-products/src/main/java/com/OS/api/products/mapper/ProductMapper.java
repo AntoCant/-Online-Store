@@ -1,5 +1,6 @@
 package com.OS.api.products.mapper;
 
+import com.OS.api.products.dtos.request.RequestProductDTO;
 import com.OS.api.products.dtos.response.ResponseProductDTO;
 import com.OS.api.products.model.ProductModel;
 import org.mapstruct.Mapper;
@@ -15,4 +16,9 @@ public interface ProductMapper {
    @Mapping(source = "productType", target = "productType")
    @Mapping(source = "images", target = "images")
    ResponseProductDTO toResponseGetProductDTO(ProductModel productModel);
+
+   @Mapping(source = "idProduct", target = "idProduct")
+   @Mapping(source = "name", target = "name")
+   ProductModel toProductModel(RequestProductDTO requestProductDTO);
+
 }

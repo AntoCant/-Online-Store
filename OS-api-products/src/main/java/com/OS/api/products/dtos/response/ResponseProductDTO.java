@@ -1,12 +1,11 @@
 package com.OS.api.products.dtos.response;
 
+import java.io.Serializable;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.io.Serializable;
-import java.util.List;
 
 @Data
 @Builder
@@ -19,6 +18,6 @@ public class ResponseProductDTO implements Serializable {
    private String description;
    private ResponseBrandDTO brand;
    private ResponseProductTypeDTO productType;
-   private List<ResponseImageDTO> images;
+   private List <ResponseImageDTO> images;
 
 }

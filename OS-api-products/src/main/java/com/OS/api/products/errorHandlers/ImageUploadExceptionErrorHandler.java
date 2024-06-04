@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @Slf4j
 @ControllerAdvice
 public class ImageUploadExceptionErrorHandler {
+
    @ExceptionHandler(ImageUploadException.class)
-   public ResponseEntity<ErrorDTO> ImageUploadExceptionErrorHandler(ImageUploadException imageUploadException) {
+   public ResponseEntity <ErrorDTO> ImageUploadExceptionErrorHandler(ImageUploadException imageUploadException) {
       log.error("Error uploading image" + imageUploadException);
       ErrorDTO errorDTO = ErrorDTO
               .builder()

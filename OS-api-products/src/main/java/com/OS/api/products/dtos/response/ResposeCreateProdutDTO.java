@@ -1,11 +1,10 @@
 package com.OS.api.products.dtos.response;
 
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Data
 @Builder
@@ -18,7 +17,7 @@ public class ResposeCreateProdutDTO {
    String description;
    ResponseProductTypeDTO productType;
    ResponseBrandDTO brand;
-   List<ResponseImageDTO> images;
+   List <ResponseImageDTO> images;
 
 
 }

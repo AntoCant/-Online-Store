@@ -21,14 +21,13 @@ import com.OS.api.products.repository.ProductRepository;
 import com.OS.api.products.repository.ProductTypeRepository;
 import com.OS.api.products.repository.imp.ImageCloudRepositoryImp;
 import com.OS.api.products.service.ProductService;
+import java.util.ArrayList;
+import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -44,15 +43,13 @@ public class ProductServiceImp implements ProductService {
    private final BrandMapper brandMapper;
    private final ImageCloudRepositoryImp imageCloudRepositoryImp;
 
-
    @Override
    public ResponsePageProductDTO getAllProductDTO(int page, int recordsPage, String name, String description) {
       Pageable pageable = PageRequest.of(page - 1, recordsPage);
-      Page<ProductModel> productPage;
+      Page <ProductModel> productPage;
 
       productPage = productRepository.findAllByParams(name, description, pageable);
-      List<ResponseProductDTO> pageProductDTOS = productPage.stream()
-              .map(productMapper::toResponseGetProductDTO).toList();
+      List <ResponseProductDTO> pageProductDTOS = productPage.stream().map(productMapper::toResponseGetProductDTO).toList();
 
       return ResponsePageProductDTO
               .builder()
@@ -64,18 +61,20 @@ public class ProductServiceImp implements ProductService {
               .build();
    }
 
-   public ResposeCreateProdutDTO createProductDTO(RequestCreateProductDTO requestCreateProductDTO) {
+   public ResposeCreateProdutDTO createProductDTO(
+           RequestCreateProductDTO requestCreateProductDTO) {
 
-      BrandModel brandModel = brandRepository.findById(requestCreateProductDTO.getIdBrand()).orElseThrow(
-              () -> IdNotFoundException
-                      .builder()
-                      .message(ApiOnlineStoreError.EMMR_0001.getDescription())
-                      .build());
-      ProductTypeModel productTypeModel = productTypeRepository.findById(requestCreateProductDTO.getIdProductType())
-              .orElseThrow(
-                      () -> IdNotFoundException.builder()
-                              .message(ApiOnlineStoreError.EMMR_0001.getDescription())
-                              .build());
+      BrandModel brandModel = brandRepository.findById(requestCreateProductDTO.getBrand())
+                                             .orElseThrow(() -> IdNotFoundException
+                                                     .builder()
+                                                     .message(ApiOnlineStoreError.EMMR_0001.getDescription())
+                                                     .build());
+      ProductTypeModel productTypeModel = productTypeRepository
+              .findById(requestCreateProductDTO.getProductType())
+              .orElseThrow(() -> IdNotFoundException.builder()
+                                                    .message(ApiOnlineStoreError.EMMR_0001.getDescription())
+                                                    .build());
+
       if (brandModel.getDateRemoved() != null || productTypeModel.getDateRemoved() != null) {
          throw new IdNotFoundException(ApiOnlineStoreError.EMMR_0001.getDescription());
       }
@@ -89,7 +88,7 @@ public class ProductServiceImp implements ProductService {
               .images(requestCreateProductDTO.getImages().stream().map(imageMapper::toImageModel).toList())
               .build();
 
-      List<ImageModel> imageModels = new ArrayList<>();
+      List <ImageModel> imageModels = new ArrayList <>();
       for (ResponseImageDTO imageDTO : requestCreateProductDTO.getImages()) {
          ImageModel imageModel = ImageModel
                  .builder()
@@ -111,7 +110,5 @@ public class ProductServiceImp implements ProductService {
               .productType(productTypeMapper.toResponseGetProductTypeDTO(productTypeModel))
               .images(productModel.getImages().stream().map(imageMapper::toResponseImageDTO).toList())
               .build();
-
    }
-
 }
