@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @Slf4j
 @ControllerAdvice
 public class IdNotFoundExceptionErrorHandler {
+
    @ExceptionHandler(IdNotFoundException.class)
-   public ResponseEntity<ErrorDTO> handleIdNotFoundException(IdNotFoundException idNotFoundException) {
+   public ResponseEntity <ErrorDTO> handleIdNotFoundException(IdNotFoundException idNotFoundException) {
       log.error("ID not found" + idNotFoundException);
       ErrorDTO errorDTO = ErrorDTO
               .builder()

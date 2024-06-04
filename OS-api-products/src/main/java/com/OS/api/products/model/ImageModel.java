@@ -9,13 +9,12 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import java.util.Date;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.Date;
 
 @Getter
 @Setter
@@ -32,12 +31,12 @@ public class ImageModel {
    private Integer idImage;
    @Column(name = "url")
    private String url;
-   @Column(name = "fecha_alta")
+   @Column(name = "date_added")
    private Date dateAdded;
-   @Column(name = "fecha_baja")
+   @Column(name = "date_removed")
    private Date dateRemoved;
    @ManyToOne(fetch = FetchType.LAZY)
-   @JoinColumn(name = "id_producto", nullable = false)
+   @JoinColumn(name = "id_product", nullable = false)
    private ProductModel productModel;
 
 }

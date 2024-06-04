@@ -1,12 +1,11 @@
 package com.OS.api.products.dtos.response;
 
+import java.io.Serializable;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.io.Serializable;
-import java.util.List;
 
 @Data
 @Builder
@@ -18,6 +17,6 @@ public class ResponsePageProductDTO implements Serializable {
    private int recordsPage;
    private int totalPages;
    private long totalItems;
-   private List<ResponseProductDTO> products;
+   private List <ResponseProductDTO> products;
 
 }

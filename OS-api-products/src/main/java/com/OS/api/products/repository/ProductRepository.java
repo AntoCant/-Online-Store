@@ -9,13 +9,13 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ProductRepository extends JpaRepository<ProductModel, Integer> {
+public interface ProductRepository extends JpaRepository <ProductModel, Integer> {
 
    @Query("SELECT p FROM ProductModel p " +
-          "WHERE (:name IS NULL OR p.name = :name) " +
-          "AND (:description IS NULL OR p.description = :description) " +
-          "AND p.dateRemoved IS NULL")
-   Page<ProductModel> findAllByParams(
+           "WHERE (:name IS NULL OR p.name = :name) " +
+           "AND (:description IS NULL OR p.description = :description) " +
+           "AND p.dateRemoved IS NULL")
+   Page <ProductModel> findAllByParams(
            @Param("name") String name,
            @Param("description")
            String description, Pageable pageable);
