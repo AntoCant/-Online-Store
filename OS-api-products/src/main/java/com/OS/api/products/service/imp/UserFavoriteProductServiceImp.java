@@ -19,7 +19,6 @@ import org.springframework.stereotype.Service;
 public class UserFavoriteProductServiceImp implements UserFavoriteProductService {
 
    private final UserFavoriteProductRepository userFavoriteProductRepository;
-
    private final ProductMapper productMapper;
 
    @Override
