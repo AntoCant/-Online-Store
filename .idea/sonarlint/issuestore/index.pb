@@ -127,3 +127,7 @@ _OS-api-products/src/main/java/com/OS/api/products/controller/UserFavoriteProduc
 UOS-api-products/src/main/java/com/OS/api/products/dtos/request/RequestProducTDTO.java,9\4\948884f7d61addf2ed3626da7d540b4b264047a9
 …
 UOS-api-products/src/main/java/com/OS/api/products/dtos/request/RequestProductDTO.java,b\f\bf264c2e29a335b24800f3f31e2ddec36f050047
+‰
+YOS-api-products/src/main/java/com/OS/api/products/dtos/response/ResponseGetBrandsDTO.java,3\0\30c82cd8ab1b44c54cbd61b3d820b47838bff32d
+‰
+YOS-api-products/src/main/java/com/OS/api/products/dtos/request/RequestUpdateBrandDTO.java,6\3\630a927a179014b4931c303e8a25b382c33f7ab4
