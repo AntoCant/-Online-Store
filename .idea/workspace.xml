@@ -1,21 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="e1286480-c0da-4a7b-96ff-9f677d958117" name="Changes" comment="" />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb2a23f7-048d-47a5-b11e-70237e0388ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OS-api-products/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/developer-tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/developer-tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2645d6807cee6271d69cea60073db56144490c00" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2645d6807cee6271d69cea60073db56144490c00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32e3feef125d0b4650b2c1f28dd3cb4f728118f0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32e3feef125d0b4650b2c1f28dd3cb4f728118f0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be718416c7841c5b7c4273b90d4526573bbd6d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be718416c7841c5b7c4273b90d4526573bbd6d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43c31ccc8676df2b924e5e3cf4ff638b3c1d8590" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43c31ccc8676df2b924e5e3cf4ff638b3c1d8590" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0a157fb94c0502f62788431af21288969fddb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0a157fb94c0502f62788431af21288969fddb7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e11232fef6fa2c374857b3eca7fb4d3b5b99879" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e11232fef6fa2c374857b3eca7fb4d3b5b99879" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50e0747b1953ce3914708b64f87981cb5a2c2dcd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50e0747b1953ce3914708b64f87981cb5a2c2dcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5951b55e64dd27407804f6e418b57afe80ba5da0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5951b55e64dd27407804f6e418b57afe80ba5da0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6f2ec8914e5f499d56b66ed5368c579f16dcaa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6f2ec8914e5f499d56b66ed5368c579f16dcaa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d3741e4fd60560a20e63ba9c86487fd5ef3fd86" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d3741e4fd60560a20e63ba9c86487fd5ef3fd86" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e8b5fbacc4a9e9dd86576484a2c9a0a588b6778" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e8b5fbacc4a9e9dd86576484a2c9a0a588b6778" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d52090ef0dece7880aa50671509e30142aefe6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d52090ef0dece7880aa50671509e30142aefe6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/707c000e241c3f00de81a82a228baacb485fdd2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/707c000e241c3f00de81a82a228baacb485fdd2f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca44bfdfdac74e249f8d10955ca83231fbddfac" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca44bfdfdac74e249f8d10955ca83231fbddfac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90cf18ef54770fcf84a4e950c9e292e59c275943" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90cf18ef54770fcf84a4e950c9e292e59c275943" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93165b8d5341f44d6f0bf30d4608ab8701e3517b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93165b8d5341f44d6f0bf30d4608ab8701e3517b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f43b67b9202f36c20014fcbd5d6258161a03a99" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f43b67b9202f36c20014fcbd5d6258161a03a99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a09b47d41229fd9efe06c3f6e4c466d69afea401" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a09b47d41229fd9efe06c3f6e4c466d69afea401" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6a335bde5ad3f5a27a79e89fc3df98e1ab9d673" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6a335bde5ad3f5a27a79e89fc3df98e1ab9d673" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa703b59f442ff54e55f5abfc4dcd39c640b5622" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa703b59f442ff54e55f5abfc4dcd39c640b5622" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2f682c6f5fd4fad2abb645a8102cdbccfafa686" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2f682c6f5fd4fad2abb645a8102cdbccfafa686" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8d6067a58f43a51365ee32574a672f644831e26" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8d6067a58f43a51365ee32574a672f644831e26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf264c2e29a335b24800f3f31e2ddec36f050047" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf264c2e29a335b24800f3f31e2ddec36f050047" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3d88faaa6f3d59163282e5561ead8cfb709d622" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3d88faaa6f3d59163282e5561ead8cfb709d622" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c628407706eca9ea5a737652d23ffef92ddd7736" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c628407706eca9ea5a737652d23ffef92ddd7736" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c869ef5de7fe069004f000e819a1227014626fa3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c869ef5de7fe069004f000e819a1227014626fa3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c923a0afcce91f418d54de2e709aa507e706243d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c923a0afcce91f418d54de2e709aa507e706243d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d84667fe69b3e338e8ee646bb0cf0ee177f76b41" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d84667fe69b3e338e8ee646bb0cf0ee177f76b41" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcf68b9ca77a142361580f03d77d19196fec0e77" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcf68b9ca77a142361580f03d77d19196fec0e77" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/dee7765871efc293cbed31dfb0bbe05126c0351f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/dee7765871efc293cbed31dfb0bbe05126c0351f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaf4fb1082c5680d86234fbe7d1b4f772e5f5522" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaf4fb1082c5680d86234fbe7d1b4f772e5f5522" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-products/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-products/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OS-api-user/src/main/java/OSapiuser/repository/SystemUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/OS-api-user/src/main/java/OSapiuser/repository/SystemUserRepository.java" afterDir="false" />
+    </list>
+>>>>>>> dacd21b7eb109d76dad367b89853c0d39bdff614
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2k3YQlr4BGIK2BboBz8uk2wmkNx" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/onlineStore-3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AntoCant&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/onlineStore-5" />
+                    <option name="lastUsedInstant" value="1717556105" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1717556043" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/onlineStore-4" />
+                    <option name="lastUsedInstant" value="1717538932" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/onlineStore-3" />
+                    <option name="lastUsedInstant" value="1717039161" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/onlineStore-2" />
+                    <option name="lastUsedInstant" value="1715133447" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AntoCant/-Online-Store.git&quot;,
+    &quot;accountId&quot;: &quot;148e3ef4-1097-4b90-ba48-4cff6cf5004c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/OS-api-products/src/main/java/com/OS/api/products/service/imp/ProductServiceImp.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2g9vWKTW7C98gYt9FLT1Pmqk8Ov" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> dacd21b7eb109d76dad367b89853c0d39bdff614
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -31,6 +166,152 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722513717634</updated>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ProductsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.OS-api-products/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.products [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.products [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.products [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.user [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/onlineStore-5&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anto/IdeaProjects/Practica/Spring/-Online-Store/OS-api-products&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.OS.api.products.dtos.request" />
+      <recent name="com.OS.api.products.dtos.response" />
+      <recent name="OSapiuser.repository" />
+      <recent name="com.OS.api.products.errorHandlers.exceptions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products" />
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products\src\main\resources\db\migration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products\src\main\resources\db\migration" />
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-user\src\main\resources\db\migration" />
+      <recent name="C:\Users\Anto\IdeaProjects\Practica\Spring\-Online-Store\OS-api-products\src\main\java\com\OS\api\products\dtos" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.OS.api.products.mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="OSapiuser.service" />
+      <recent name="com.OS.api.products.errorHandlers" />
+      <recent name="com.OS.api.products.repository" />
+      <recent name="com.OS.api.products.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProductsApplication">
+    <configuration name="ProductsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DATABASE_PASSWORD" value="ac0611ostonyy" />
+        <env name="KEY" value="873859456336216" />
+        <env name="NAME" value="dpxup9pa1" />
+        <env name="PORT" value="5433" />
+        <env name="SECRET" value="hDcjQKFr7vgxRtglld094r5AtQw" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.OS.api.products.ProductsApplication" />
+      <module name="products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OS.api.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DATABASE_PASSWORD" value="ac0611ostonyy" />
+        <env name="PORT" value="5433" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="OSapiuser.UserApplication" />
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OSapiuser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OS-api-products/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="DATABASE_PASSWORD" />
+                <option name="value" value="ac0611ostonyy" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KEY" />
+                <option name="value" value="873859456336216" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="NAME" />
+                <option name="value" value="dpxup9pa1" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="PORT" />
+                <option name="value" value="5433" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="SECRET" />
+                <option name="value" value="MTM/dWh6ekBmP1BELnNGT1ppKmkjLHRPIXlmL0R0I0kkJnF1b3Q7aHhXTiZsdDt+" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="OS-api-products/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProductsApplication" />
+      <item itemvalue="Application.UserApplication" />
+      <item itemvalue="Docker.OS-api-products/Dockerfile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProductsApplication" />
+        <item itemvalue="Docker.OS-api-products/Dockerfile" />
+        <item itemvalue="Application.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb2a23f7-048d-47a5-b11e-70237e0388ce" name="Changes" comment="" />
+      <created>1715122643634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715122643634</updated>
+>>>>>>> dacd21b7eb109d76dad367b89853c0d39bdff614
     </task>
     <servers />
   </component>
